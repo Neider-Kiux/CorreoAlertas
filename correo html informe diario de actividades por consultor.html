@@ -10,33 +10,7 @@
                         padding: 0;
                 }
 
-                .nota_inicial {}
-
-                .franja_superior,
-                .franja_inferior {
-                        /* width: 100%;
-                        padding: 0.125rem 0;
-                        background-color: #1e6dad;
-                        text-align: center;
-                        border-top-right-radius: 0.25rem;
-                        border-top-left-radius: 0.25rem; */
-                }
-
-                .franja_inferior {}
-
-                .titulo {}
-
-                .descripcion {}
-
-                .contenido {}
-
-                .tablas {}
-
                 @media (max-width: 960px) {
-                        /* .main {
-                                width: 100vw;
-                        } */
-
                         .nota_inicial {
                                 display: block !important;
                         }
@@ -45,37 +19,46 @@
 </head>
 
 <body>
-        <div class="main" style="text-align: center;
-            font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;width: 100vw;
-            max-width: 840px;
-            color: white;">
-                <div class="nota_inicial" style="display: none; font-size: large; background-color: #b90404; color: white; text-align: center;padding: 0.3125rem;
-            border-radius: 0.25rem;
-            margin-bottom: 0.25rem;"> Te
-                        recomendamos ver este informe en un computador </div>
-                <div class="franja_superior" style="width: 100%;
-                        padding: 0.125rem 0;
+        <div class="main" style="text-align: center; font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;width: 100vw;
+                        max-width: 840px;
+                        color: white;">
+                <div class="nota_inicial"
+                        style="display: none; font-size: large; background-color: #b90404; color: white; text-align: center;padding: 0.3125rem; border-radius: 0.25rem; margin-bottom: 0.25rem;">
+                        Te recomendamos ver este informe en un computador </div>
+                <table cellspacing="0" cellpadding="0">
+                        <tr style=" margin: 0; place-items: center; border:0">
+                                <td class="franja_superior" style="width: 100%;
+                        margin: 0; padding: 0;
+                        padding: 0.25rem 0;
+                        height: 33px;
                         background-color: #1e6dad;
                         text-align: center;
                         border-top-right-radius: 0.25rem;
-                        border-top-left-radius: 0.25rem;"> <img
-                                src="http://kiux.co/wp-content/uploads/2023/12/kiux_logo_header_web.png" alt="KIUX"
-                                title="KIUX" style="height: 1.125rem; "> <span class="titulo" style="font-size: 1.375rem;
-                        color: white;">- Informe diario de
-                                actividades
-                                por consultor</span> </div>
-                <div class="descripcion" style="background-color: #000;
-                        padding: 0.25rem 1rem;
+                        border-top-left-radius: 0.25rem; justify-content: center; justify-items: center;
+                        font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                        ">
+                                        <img src="http://kiux.co/wp-content/uploads/2023/12/kiux_logo_header_web.png"
+                                                alt="KIUX" title="KIUX"
+                                                style="height: 1.125rem; margin: 0; padding: 0; font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+                                        <span class="titulo"
+                                                style="font-size: 1.375rem; color: white;margin: 0; padding: 0;"> -
+                                                Informe diario de actividades por consultor </span>
+                                </td>
+                        </tr>
+                        <tr>
+                                <td class="descripcion" style="
+                        padding: 0.5rem 1rem;
                         text-align: justify;
-                        font-size: 0.875rem;
-                        border-bottom-left-radius: 0.25rem;
-                        border-bottom-right-radius: 0.25rem;"> <span>Este informe presenta la cantidad de horas
-                                registradas por cada
-                                consultor de la
-                                firma durante los últimos 45 días. Los puntos rojos corresponden a días en los que el
-                                consultor no ha
-                                registrado actividades.</span> <span style="color: orange; ">2024-01-10 17:44</span>
-                </div>
+                        font-size: 0.875rem; background-color: #000; border-bottom-left-radius: 0.25rem;
+                        border-bottom-right-radius: 0.25rem;
+                        "> <span style="color:white">Este informe presenta la cantidad de horas registradas por cada
+                                                consultor de la firma durante los últimos 45 días. Los puntos rojos
+                                                corresponden a días en los que el consultor no ha registrado
+                                                actividades.</span>
+                                        <span style="color: orange; "> 2024-01-10 17:44 </span>
+                                </td>
+                        </tr>
+                </table>
                 <div class="contenido" style="padding-bottom: 0.5rem;">
                         <div class="tablas" style="margin: 0 0.9375rem;
                         text-align: initial;">
@@ -369,8 +352,7 @@
                                                 src="https://kiux.app/img/hbar/100.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Directores Asociados II</span> <span
                                                 style="color:#000000">&#9733;</span> <span style="color:#ff9900">Alvaro
-                                                Enrique Sabbagh
-                                                Arango</span></div>
+                                                Enrique Sabbagh Arango</span></div>
                                 <div><img src="https://kiux.app/img/hbar/100.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-29"><img
@@ -418,8 +400,7 @@
                                                 src="https://kiux.app/img/hbar/100.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Directores Asociados II</span> <span
                                                 style="color:#000000">&#9733;</span> <span style="color:#ff9900">Andrés
-                                                Felipe Rivas
-                                                Cardona</span></div>
+                                                Felipe Rivas Cardona</span></div>
                                 <div><img src="https://kiux.app/img/hbar/100.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-29"><img
@@ -467,8 +448,7 @@
                                                 src="https://kiux.app/img/hbar/100.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Directores Asociados II</span> <span
                                                 style="color:#000000">&#9733;</span> <span
-                                                style="color:#ff9900">Catalina Amaris
-                                                Fernández</span></div>
+                                                style="color:#ff9900">Catalina Amaris Fernández</span></div>
                                 <div><img src="https://kiux.app/img/hbar/100.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-29"><img
@@ -565,8 +545,7 @@
                                                 src="https://kiux.app/img/hbar/101.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Directores Asociados II</span> <span
                                                 style="color:#000000">&#9733;</span> <span style="color:#ff9900">Gustavo
-                                                Adolfo Lorenzo
-                                                Ortiz</span></div>
+                                                Adolfo Lorenzo Ortiz</span></div>
                                 <div><img src="https://kiux.app/img/hbar/100.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-29"><img
@@ -614,8 +593,7 @@
                                                 src="https://kiux.app/img/hbar/100.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Directores Asociados II</span> <span
                                                 style="color:#000000">&#9733;</span> <span style="color:#ff9900">Juan
-                                                Carlos Ucros
-                                                Fajardo</span></div>
+                                                Carlos Ucros Fajardo</span></div>
                                 <div><img src="https://kiux.app/img/hbar/100.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/102.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/100.gif" title="2023-11-29"><img
@@ -663,8 +641,7 @@
                                                 src="https://kiux.app/img/hbar/100.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Directores Asociados II</span> <span
                                                 style="color:#000000">&#9733;</span> <span style="color:#ff9900">Maria
-                                                Fernanda Rubio
-                                                Marroquin</span></div>
+                                                Fernanda Rubio Marroquin</span></div>
                                 <div><img src="https://kiux.app/img/hbar/102.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/102.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/106.gif" title="2023-11-29"><img
@@ -761,8 +738,7 @@
                                                 src="https://kiux.app/img/hbar/100.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Consultores Senior III</span> <span
                                                 style="color:#000000">&#9733;</span> <span style="color:#ff9900">Camilo
-                                                Andrés Gamboa
-                                                Quiñones</span></div>
+                                                Andrés Gamboa Quiñones</span></div>
                                 <div><img src="https://kiux.app/img/hbar/104.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/108.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/108.gif" title="2023-11-29"><img
@@ -859,8 +835,7 @@
                                                 src="https://kiux.app/img/hbar/100.gif" title="2024-01-10"></div>
                                 <div><span style="color:#0033cc">Consultores Senior III</span> <span
                                                 style="color:#000000">&#9733;</span> <span style="color:#ff9900">Martha
-                                                Liliana Castro
-                                                Medina</span></div>
+                                                Liliana Castro Medina</span></div>
                                 <div><img src="https://kiux.app/img/hbar/108.gif" title="2023-11-27"><img
                                                 src="https://kiux.app/img/hbar/104.gif" title="2023-11-28"><img
                                                 src="https://kiux.app/img/hbar/104.gif" title="2023-11-29"><img
